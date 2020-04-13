@@ -15,6 +15,7 @@
 		B983824C24448366006B6557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B983824A24448366006B6557 /* LaunchScreen.storyboard */; };
 		B983825724448366006B6557 /* PhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B983825624448366006B6557 /* PhotoAppTests.swift */; };
 		B983826224448366006B6557 /* PhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B983826124448366006B6557 /* PhotoAppUITests.swift */; };
+		B983827024449CA1006B6557 /* DisplayImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B983826F24449CA1006B6557 /* DisplayImagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B983825D24448366006B6557 /* PhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B983826124448366006B6557 /* PhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITests.swift; sourceTree = "<group>"; };
 		B983826324448366006B6557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B983826F24449CA1006B6557 /* DisplayImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayImagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		B983823224448364006B6557 = {
 			isa = PBXGroup;
 			children = (
+				B983826F24449CA1006B6557 /* DisplayImagesViewController.swift */,
 				B983823D24448364006B6557 /* PhotoApp */,
 				B983825524448366006B6557 /* PhotoAppTests */,
 				B983826024448366006B6557 /* PhotoAppUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B983824124448364006B6557 /* ViewController.swift in Sources */,
+				B983827024449CA1006B6557 /* DisplayImagesViewController.swift in Sources */,
 				B983823F24448364006B6557 /* AppDelegate.swift in Sources */,
 				B983824724448364006B6557 /* PhotoApp.xcdatamodeld in Sources */,
 			);
